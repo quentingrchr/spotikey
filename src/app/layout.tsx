@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { SessionProvider } from "next-auth/react";
 import cn from "classnames";
+import Providers from "@/components/Providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,10 +17,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <SessionProvider>
+    <Providers>
       <html lang="en">
         <body className={cn(inter.className, "bg-gray-950")}>{children}</body>
       </html>
-    </SessionProvider>
+    </Providers>
   );
 }

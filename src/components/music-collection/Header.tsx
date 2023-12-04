@@ -39,7 +39,7 @@ export default function MusicCollectionHeader({
 
         <div className="flex flex-col text-white h-full sm:min-h-[92px] justify-between">
           <div className="flex flex-col-reverse items-stretch justify-stretch">
-            <h1 className="text-2xl sm:text-4xl font-bold">{title}</h1>
+            <h1 className="text-4xl sm:text-4xl font-bold">{title}</h1>
             <p className="text-xs font-thin">{getMusicCollectionLabel(type)}</p>
           </div>
           <p className="text-xs font-extralight leading-none">

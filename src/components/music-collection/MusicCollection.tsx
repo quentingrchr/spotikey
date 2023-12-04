@@ -1,5 +1,6 @@
 import React from "react";
-import Header from "./MusicCollectionHeader";
+import Header from "./Header";
+import Table from "./Table";
 
 export default function MusicCollectionHeader() {
   return (
@@ -11,6 +12,7 @@ export default function MusicCollectionHeader() {
         songsCount={10}
         featuredArtists={["Skrillex", "Habstrakt", "Zeds Dead"]}
       />
+      <Table />
     </div>
   );
 }

@@ -29,7 +29,7 @@ const config: Config = {
         },
         text: "#FFFFFF",
         "muted-text": "#919191",
-        brand: "#FFC700",
+        brand: "#FFC107",
       },
     },
   },

@@ -22,7 +22,7 @@ export default function Header({ user }: Props) {
     <header className="px-12 bg-gray-900 top-0 fixed w-full h-16 flex justify-between items-center border-b-neutral-600 border-b">
       {/* Left side */}
       <div className="flex justify-between items-center gap-20">
-        <Image src="/logo.png" alt="logo" height={30} width={30} />
+        <Image src="/artwork.png" alt="logo" height={30} width={30} />
         <div className="flex items-center">
           <Navigation />
         </div>
